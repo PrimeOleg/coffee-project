@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f5f2;
+    background-image: url(/checkout/coffee\ background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #333;
+}
+
+h1, h2 {
+    color: #006341;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #006341;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #004225;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-top: 20px;
+}
